@@ -1,0 +1,30 @@
+/* static NOT working for top,bottom,left,right */
+.static {
+  position: static;
+  top: 200px;
+  bottom: 200px;
+  left: 200px;
+  right: 200px;
+}
+/* relative working for top,bottom,left,right */
+.relative {
+  position: relative;
+  top: 200px;
+  bottom: 200px;
+  left: 200px;
+  right: 200px;
+  height: 1200px;
+}
+
+/* absolute working for top,bottom,left,right */
+
+
+/* sticky position */
+.sticky {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  border: 1px solid black;
+  position: sticky;
+  top: 10px;
+}

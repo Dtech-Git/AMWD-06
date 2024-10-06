@@ -1,0 +1,17 @@
+.title {
+  background-color: #ff0000;
+}
+
+/* single value */
+@media only screen and (max-width: 425px) {
+  .title {
+    background-color: rgb(23, 243, 170);
+  }
+}
+
+/* multi value */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .title {
+    background-color: rgb(118, 255, 6);
+  }
+}

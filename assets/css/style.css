@@ -1,0 +1,56 @@
+.address {
+  background-color: blue;
+  color: white;
+}
+#dtmc {
+  background-color: gray;
+}
+.lorem {
+  background-color: chocolate;
+}
+span {
+  background-color: gray;
+}
+h3 {
+  background-color: darkgoldenrod;
+}
+
+/* task */
+.task {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+  margin-top: 50px;
+}
+.task:hover {
+  background-color: #575e66;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* end task */
+
+/* css box-modal */
+.box-modal {
+  background-color: gray;
+  padding: 40px;
+  border: 10px solid black;
+  margin-left: 100px;
+}
+
+div .txt {
+  background-color: black;
+  padding: 15px;
+  border: 10px solid red;
+  margin: 200px;
+}

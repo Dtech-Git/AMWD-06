@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <style>
+      .login:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center min-vh-100 bg-white"
+  >
+    <div
+      class="d-flex justify-content-center align-items-center min-vh-100 bg-white"
+    >
+      <img
+        src="./assets/imgs/DTMC.jpg"
+        alt="DTMC Logo"
+        width="25%"
+        height="auto"
+        class="float-end"
+      />
+
+      <div
+        class="login text-center border p-4 bg-white shadow-sm"
+        style="border-radius: 10px; color: blue"
+      >
+        <form action="">
+          <h1>Sign in</h1>
+          <br />
+          <div class="mb-3 text-start">
+            <label for="username" class="form-label">User name</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="mb-3 text-start">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="form-control"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-outline-primary w-100"
+            style="border: 2px solid rgb(102, 138, 102)"
+          >
+            Sign in
+          </button>
+          <hr />
+          <button
+            type="button"
+            class="btn btn-outline-success w-100"
+            style="border: 2px solid rgb(129, 89, 89)"
+          >
+            Sign up
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
